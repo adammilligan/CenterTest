@@ -8,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint-fix": "eslint src --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
-    "preview": "vite preview",
-    "generate-api": "openapi -i https://api.sreda-test-server.ru/api/v1/swagger/?format=openapi -o ./src/shared/api/swagger --name ApiClient --client axios"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@conarti/eslint-plugin-feature-sliced": "^1.0.5",
@@ -28,12 +27,8 @@
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.2.0",
-    "react-draft-wysiwyg": "^1.15.0",
-    "react-google-docs-viewer": "^1.0.1",
-    "react-quill": "^2.0.0",
     "react-router-dom": "^6.14.0",
     "react-select": "^5.7.4",
-    "react-youtube": "^10.1.0",
     "sass": "^1.63.6",
     "yup": "^1.2.0"
   },

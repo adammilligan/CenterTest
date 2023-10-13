@@ -4,7 +4,7 @@ import "./index.sass"
 const App = observer(() => {
   return (
     <div className="app">
-      Hello
+      hello
     </div>
   )
 })
