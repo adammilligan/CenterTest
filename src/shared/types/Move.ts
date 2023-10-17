@@ -1,4 +1,4 @@
-export type comment = {
+export type MoveComment = {
   move: number
   id: number
   text: string
@@ -9,10 +9,10 @@ export type Move = {
   id: number
   name: string
   description: string
-  cast: string[]
+  cast: string
   durationMinutes: number
-  rating: number
+  rating: number[]
   cover: string
-  comments: comment[]
+  comments: MoveComment[]
 }
 

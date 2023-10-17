@@ -1,9 +1,9 @@
 import {observer} from "mobx-react";
+import {useNavigate} from "react-router-dom";
 import MoveCard from "widgets/MoveCard";
 import {moveList} from "entities/moveList";
-import classes from "./index.module.sass"
 import addImg from './images/add.svg'
-import {useNavigate} from "react-router-dom";
+import classes from "./index.module.sass"
 
 const Moves = observer(() => {
 
